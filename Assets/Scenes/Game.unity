@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 686551020}
   - component: {fileID: 686551022}
   - component: {fileID: 686551021}
+  - component: {fileID: 686551023}
   m_Layer: 5
   m_Name: Safe Area Panel
   m_TagString: Untagged
@@ -286,6 +287,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686551019}
   m_CullTransparentMesh: 1
+--- !u!114 &686551023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686551019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 353cfaf0ef6dfa9489f64aa37ad3e4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  safeAreaPanel: {fileID: 686551020}
 --- !u!1 &1025251666
 GameObject:
   m_ObjectHideFlags: 0
